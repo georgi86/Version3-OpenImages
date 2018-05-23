@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="240fdb8542e2747c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/23/2018 12:31:24"
+		timestampiso="2018-05-23T09:31:24"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.068"
+			timeRelativeToTestModuleStartTime="00:00.069"
+			timeWallClock="12:31:24"
+			time="00:00.068"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_cf99ef55_57acddb3_trace.jpg"
+			errthumb=".\Recordin_cf99ef55_57acddb3_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ButtonGo' at 59;36.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/button[@text='Go']"
+				fullname="AutomationOpenImagesRepository.ButtonGo"
+				id="11f2337eac584f4e9c3555047285c28a"
+				timeout="30000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.545"
+			timeRelativeToTestModuleStartTime="00:01.546"
+			timeWallClock="12:31:25"
+			time="00:01.545"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_cf99ef55_dbc126cf_trace.jpg"
+			errthumb=".\Recordin_cf99ef55_dbc126cf_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.FeatureFinder' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//toolbar[@class='ToolbarWindow32' and @instance='2']/button[@commandid='5064' and @checked='false']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.FeatureFinder"
+				id="f18ab8eb0cd74d2992ddd012ee0f9d6b"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.519"
+			timeRelativeToTestModuleStartTime="00:25.520"
+			timeWallClock="12:31:49"
+			time="00:25.519"
+			level="Error"
+			category="User"
+			errimg=".\Recordin_cf99ef55_8f2513c7_trace.jpg"
+			errthumb=".\Recordin_cf99ef55_8f2513c7_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="117ab457b4ce4d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/23/2018 11:42:04"
+		timestampiso="2018-05-23T08:42:04"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Screenshot of item 'AutomationOpenImagesRepository.SnapXUntitled.Pictures' does not match the specified image.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.075"
+			timeRelativeToTestModuleStartTime="00:00.075"
+			timeWallClock="11:42:04"
+			time="00:00.075"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ButtonGo' at 59;36.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/button[@text='Go']"
+				fullname="AutomationOpenImagesRepository.ButtonGo"
+				id="11f2337eac584f4e9c3555047285c28a"
+				timeout="30000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.518"
+			timeRelativeToTestModuleStartTime="00:02.518"
+			timeWallClock="11:42:06"
+			time="00:02.518"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at 833;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.TitleBar"
+				id="7cae186e67914520a994155995771fff"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.870"
+			timeRelativeToTestModuleStartTime="00:04.870"
+			timeWallClock="11:42:09"
+			time="00:04.870"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.OpenImageButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@text='Open Image']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.OpenImageButton"
+				id="95015fa78b5e457eb717307eb061506c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.820"
+			timeRelativeToTestModuleStartTime="00:07.820"
+			timeWallClock="11:42:12"
+			time="00:07.820"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Delete}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.028"
+			timeRelativeToTestModuleStartTime="00:08.028"
+			timeWallClock="11:42:12"
+			time="00:08.028"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'D:\Joro\GIT_Automations\VERSION 3\Images\1.bmp'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.814"
+			timeRelativeToTestModuleStartTime="00:12.814"
+			timeWallClock="11:42:17"
+			time="00:12.814"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.020"
+			timeRelativeToTestModuleStartTime="00:13.020"
+			timeWallClock="11:42:17"
+			time="00:13.020"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_43177ab6_ee663aa7_trace.jpg"
+			errthumb=".\Recordin_43177ab6_ee663aa7_trace_thumb.jpg">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=1256,Height=936}) on item 'SnapXUntitled.Pictures'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='218267584']/text[@controlid='110']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.Pictures"
+				id="e8ad9facf9f2476b9c9b10cfee4d8aac"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.218"
+			timeRelativeToTestModuleStartTime="00:16.218"
+			timeWallClock="11:42:20"
+			time="00:16.218"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_43177ab6_0a26fae4_trace.jpg"
+			errthumb=".\Recordin_43177ab6_0a26fae4_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'AutomationOpenImagesRepository.SnapXUntitled.Pictures' does not match the specified image.
+			</message>
+			<metainfo
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="111"
+				loglvl="Failure"
+				id="e8ad9facf9f2476b9c9b10cfee4d8aac"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='218267584']/text[@controlid='110']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.Pictures"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.266"
+			timeRelativeToTestModuleStartTime="00:16.266"
+			timeWallClock="11:42:20"
+			time="00:16.266"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Recordin_a4ec4fff_rxlog.jpg"><img src=".\Recordin_a4ec4fff_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="111"
+				loglvl="Failure"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.300"
+			timeRelativeToTestModuleStartTime="00:16.300"
+			timeWallClock="11:42:20"
+			time="00:16.300"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Recordin_4793c49a_rxlog.jpg"><img src=".\Recordin_4793c49a_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="111"
+				loglvl="Failure"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.308"
+			timeRelativeToTestModuleStartTime="00:16.308"
+			timeWallClock="11:42:20"
+			time="00:16.308"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_43177ab6_4508528d_trace.jpg"
+			errthumb=".\Recordin_43177ab6_4508528d_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'AutomationOpenImagesRepository.SnapXUntitled.Pictures' does not match the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at AutomationOpenImages.Recording1.Ranorex.Core.Testing.ITestModule.Run() in d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs:line 111
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)"
+				codefile="3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="111"
+				loglvl="Error"
+				id="e8ad9facf9f2476b9c9b10cfee4d8aac"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='218267584']/text[@controlid='110']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.Pictures"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

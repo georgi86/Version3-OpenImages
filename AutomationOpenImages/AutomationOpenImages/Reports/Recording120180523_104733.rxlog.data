@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1691c1c2a259f17"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/23/2018 10:47:35"
+		timestampiso="2018-05-23T07:47:35"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.076"
+			timeRelativeToTestModuleStartTime="00:00.076"
+			timeWallClock="10:47:35"
+			time="00:00.076"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TextMeasure' at 32;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.TextMeasure"
+				id="a13ef2c46a004e6d858181963f233d71"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.485"
+			timeRelativeToTestModuleStartTime="00:03.485"
+			timeWallClock="10:47:39"
+			time="00:03.485"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at 833;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.TitleBar"
+				id="7cae186e67914520a994155995771fff"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.263"
+			timeRelativeToTestModuleStartTime="00:04.263"
+			timeWallClock="10:47:39"
+			time="00:04.263"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.OpenImageButton' at 12;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@text='Open Image']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.OpenImageButton"
+				id="95015fa78b5e457eb717307eb061506c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.692"
+			timeRelativeToTestModuleStartTime="00:06.692"
+			timeWallClock="10:47:42"
+			time="00:06.692"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Delete}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.895"
+			timeRelativeToTestModuleStartTime="00:06.895"
+			timeWallClock="10:47:42"
+			time="00:06.895"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'D:\Joro\GIT_Automations\VERSION 3\Images\1.bmp'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.650"
+			timeRelativeToTestModuleStartTime="00:11.650"
+			timeWallClock="10:47:47"
+			time="00:11.650"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.894"
+			timeRelativeToTestModuleStartTime="00:11.894"
+			timeWallClock="10:47:47"
+			time="00:11.894"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 33s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.913"
+			timeRelativeToTestModuleStartTime="00:44.913"
+			timeWallClock="10:48:20"
+			time="00:44.913"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='') on item 'SnapXUntitled.ScreenshotOne'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='218267584']/text[@controlid='110']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.ScreenshotOne"
+				id="96b639b4c08145a59a615ec3b432f73b"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.904"
+			timeRelativeToTestModuleStartTime="00:47.904"
+			timeWallClock="10:48:23"
+			time="00:47.904"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutomationOpenImagesRepository.SnapXUntitled.ScreenshotOne' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='218267584']/text[@controlid='110']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.ScreenshotOne"
+				id="96b639b4c08145a59a615ec3b432f73b"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="110"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

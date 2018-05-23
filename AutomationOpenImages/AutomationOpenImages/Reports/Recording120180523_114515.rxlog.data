@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b000ed8a593ac27"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/23/2018 11:45:16"
+		timestampiso="2018-05-23T08:45:16"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.072"
+			timeRelativeToTestModuleStartTime="00:00.072"
+			timeWallClock="11:45:16"
+			time="00:00.072"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at 833;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.TitleBar"
+				id="7cae186e67914520a994155995771fff"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.977"
+			timeRelativeToTestModuleStartTime="00:00.977"
+			timeWallClock="11:45:17"
+			time="00:00.977"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.OpenImageButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@text='Open Image']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.OpenImageButton"
+				id="95015fa78b5e457eb717307eb061506c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.703"
+			timeRelativeToTestModuleStartTime="00:03.703"
+			timeWallClock="11:45:20"
+			time="00:03.703"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Delete}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.909"
+			timeRelativeToTestModuleStartTime="00:03.909"
+			timeWallClock="11:45:20"
+			time="00:03.909"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'D:\Joro\GIT_Automations\VERSION 3\Images\1.bmp'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.696"
+			timeRelativeToTestModuleStartTime="00:08.696"
+			timeWallClock="11:45:25"
+			time="00:08.696"
+			level="Info"
+			category="Keyboard"
+			errimg=".\Recordin_e6861ce3_15595265_trace.jpg"
+			errthumb=".\Recordin_e6861ce3_15595265_trace_thumb.jpg">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.900"
+			timeRelativeToTestModuleStartTime="00:08.900"
+			timeWallClock="11:45:25"
+			time="00:08.900"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_e6861ce3_dcb466e9_trace.jpg"
+			errthumb=".\Recordin_e6861ce3_dcb466e9_trace_thumb.jpg">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=1256,Height=936}) on item 'SnapXUntitled.Pictures'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='218267584']/text[@controlid='110']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.Pictures"
+				id="e8ad9facf9f2476b9c9b10cfee4d8aac"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.412"
+			timeRelativeToTestModuleStartTime="00:35.412"
+			timeWallClock="11:45:52"
+			time="00:35.412"
+			level="Error"
+			category="User"
+			errimg=".\Recordin_e6861ce3_45944f9b_trace.jpg"
+			errthumb=".\Recordin_e6861ce3_45944f9b_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

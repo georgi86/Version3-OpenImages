@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{1E868C17-3CB7-450C-BD86-C5DB8379D056}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution AutomationOpenImages[AutomationOpenImages[]]]&#xD;&#xA;Solution AutomationOpenImages\AutomationOpenImages\Recording1.rxrec&#xD;&#xA;Solution AutomationOpenImages" />
+  <StartupProject value="{1E868C17-3CB7-450C-BD86-C5DB8379D056}" />
+</Properties>

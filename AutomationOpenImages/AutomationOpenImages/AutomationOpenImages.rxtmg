@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="AutomationOpenImages"
+      id="84e613ad-77c7-4bb4-b645-e5fc4f1983a4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="AutomationOpenImages"
+      id="84e613ad-77c7-4bb4-b645-e5fc4f1983a4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

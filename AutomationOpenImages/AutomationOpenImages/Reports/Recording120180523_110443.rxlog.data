@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14fd0c80d2421a68"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/23/2018 11:04:45"
+		timestampiso="2018-05-23T08:04:45"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.072"
+			timeRelativeToTestModuleStartTime="00:00.072"
+			timeWallClock="11:04:45"
+			time="00:00.072"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TextMeasure' at 32;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.TextMeasure"
+				id="a13ef2c46a004e6d858181963f233d71"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.487"
+			timeRelativeToTestModuleStartTime="00:03.487"
+			timeWallClock="11:04:48"
+			time="00:03.487"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at 833;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.TitleBar"
+				id="7cae186e67914520a994155995771fff"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.339"
+			timeRelativeToTestModuleStartTime="00:04.339"
+			timeWallClock="11:04:49"
+			time="00:04.339"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.OpenImageButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@text='Open Image']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.OpenImageButton"
+				id="95015fa78b5e457eb717307eb061506c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.797"
+			timeRelativeToTestModuleStartTime="00:06.797"
+			timeWallClock="11:04:52"
+			time="00:06.797"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Delete}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.001"
+			timeRelativeToTestModuleStartTime="00:07.001"
+			timeWallClock="11:04:52"
+			time="00:07.001"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'D:\Joro\GIT_Automations\VERSION 3\Images\1.bmp'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.773"
+			timeRelativeToTestModuleStartTime="00:11.773"
+			timeWallClock="11:04:57"
+			time="00:11.773"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.002"
+			timeRelativeToTestModuleStartTime="00:12.002"
+			timeWallClock="11:04:57"
+			time="00:12.002"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.011"
+			timeRelativeToTestModuleStartTime="00:17.011"
+			timeWallClock="11:05:02"
+			time="00:17.011"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=11,Y=5,Width=1227,Height=913}) on item 'SnapXUntitled.PictureOne'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='218267584']/text[@controlid='110']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.PictureOne"
+				id="e8ad9facf9f2476b9c9b10cfee4d8aac"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.115"
+			timeRelativeToTestModuleStartTime="00:20.115"
+			timeWallClock="11:05:05"
+			time="00:20.115"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'AutomationOpenImagesRepository.SnapXUntitled.PictureOne' does match the specified image.
+			</message>
+			<metainfo
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="110"
+				loglvl="Success"
+				id="e8ad9facf9f2476b9c9b10cfee4d8aac"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='218267584']/text[@controlid='110']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.PictureOne"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.221"
+			timeRelativeToTestModuleStartTime="00:20.221"
+			timeWallClock="11:05:05"
+			time="00:20.221"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.233"
+			timeRelativeToTestModuleStartTime="00:23.233"
+			timeWallClock="11:05:08"
+			time="00:23.233"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.OpenImageButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@text='Open Image']"
+				fullname="AutomationOpenImagesRepository.SnapXUntitled.OpenImageButton"
+				id="95015fa78b5e457eb717307eb061506c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.668"
+			timeRelativeToTestModuleStartTime="00:25.668"
+			timeWallClock="11:05:11"
+			time="00:25.668"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Delete}'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.872"
+			timeRelativeToTestModuleStartTime="00:25.872"
+			timeWallClock="11:05:11"
+			time="00:25.872"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'D:\Joro\GIT_Automations\VERSION 3\Images\2.bmp'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.640"
+			timeRelativeToTestModuleStartTime="00:30.640"
+			timeWallClock="11:05:16"
+			time="00:30.640"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationOpenImages\AutomationOpenImages\Recording1.cs"
+				codeline="128"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
