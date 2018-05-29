@@ -34,6 +34,32 @@ rxversion="7.0">
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="57556d4d-4f1e-4328-926f-7ec17b94f6c6"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d5923ba4-1c19-4432-8468-cddd7894ff41"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="59;36"
 		movetime="300ms"
 		optional="False"
@@ -58,6 +84,7 @@ rxversion="7.0">
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -81,7 +108,33 @@ rxversion="7.0">
 		action="Click"
 		button="Left"
 		duration="500ms"
+		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="609f7b57-9b82-41a5-a1ee-3539a952fe0a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8867a432-6080-4627-a766-cecd00c357fa"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled' and @enabled='True']/?/?/tabpage[@title='Toolbox']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
 		enabled="False"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="32;9"
 		movetime="300ms"
 		optional="False"
@@ -334,6 +387,7 @@ oAKKKKAP/9k=
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="833;13"
 		movetime="300ms"
 		optional="False"
@@ -677,6 +731,7 @@ dgWA9hjP8xRRQA6iiigAooooAKKKKAP/2Q==
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -805,6 +860,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Delete}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="39d14368-b0a4-48c1-9c39-f1944655ce2f">
@@ -817,6 +873,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="D:\Joro\GIT_Automations\VERSION 3\Images\1.bmp"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="6cddb088-a11b-4963-b994-2188688255d0">
@@ -829,6 +886,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Return}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="d77a7f56-6ec6-4c92-800a-d0b5041eaf54">
@@ -837,23 +895,31 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			<bindings>
 			</bindings>
 		</keysequenceitem>
+		<explicitdelayitem
+		duration="22000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<validationitem
-		action="CompareImage"
+		action="ContainsImage"
 		codegenpropertyname="Pictures_Screenshot1"
 		duration="100ms"
 		enabled="True"
-		imageoptions="1;None;0,0,1256,936;True;10000000;0ms"
-		imagerect="0,0,1256,936"
-		optional="True"
-		screenshotguid="201784b1-1614-4261-b9a6-d7546a8efc33"
+		imagerect="118,70,981,837"
+		optional="False"
+		screenshotguid="bfd88a1e-8471-4a5c-8118-9957174fcd78"
 		screenshotname="Screenshot1"
-		searchpropertyid="e6d37e1a-0e37-45ba-8dcf-75baa17c5fa7">
+		searchpropertyid="14f49438-4dfc-4220-b73b-d4ff19dad64b">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="6eb375ab-fee3-4ac5-bc46-a9c9a335c05f"
+			id="f5c4d0cb-7674-425b-a28f-22fa4f492232"
 			sourcename="ElementTree">
 				<element
 				capabilities="nativewindow"
@@ -861,7 +927,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				enabled="True"
 				flavor="win32"
 				hasfocus="False"
-				index="2"
+				index="0"
 				prefcap="text"
 				rect="10,118,1256,936"
 				role="text"
@@ -875,12 +941,12 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="selectionlength"
 					type="System.Int32">
-						1598642
+						100
 					</attribute>
 					<attribute
 					name="selectionstart"
 					type="System.Int32">
-						0
+						24945196
 					</attribute>
 					<attribute
 					name="text"
@@ -904,7 +970,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						12453080
+						394776
 					</attribute>
 					<attribute
 					name="instance"
@@ -914,7 +980,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="processid"
 					type="System.Int32">
-						6728
+						6972
 					</attribute>
 					<attribute
 					name="processname"
@@ -994,11 +1060,11 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled' and @class='Afx:009F0000:b:00010003:00000006:00C50AF5']//element[@controlid='217744136']/text[@controlid='110']
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled' and @class='Afx:013D0000:b:00010003:00000006:026D0855']//element[@controlid='233245920']/text[@controlid='110']
 				</path>
 			</info>
 			<helperscreenshot
-			guid="bbc4a798-3374-460f-b161-e8b5b7202c67">
+			guid="fd353455-6460-4d10-abb6-9d9e65e85f21">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
@@ -1206,6 +1272,7 @@ NjFooopAFFFFABRRRQAUUUUABooooAKKKKACiiigBaKKKAP/2Q==
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -1334,6 +1401,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Delete}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="39d14368-b0a4-48c1-9c39-f1944655ce2f">
@@ -1346,6 +1414,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="D:\Joro\GIT_Automations\VERSION 3\Images\2.bmp"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="6cddb088-a11b-4963-b994-2188688255d0">
@@ -1358,6 +1427,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Return}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="d77a7f56-6ec6-4c92-800a-d0b5041eaf54">
@@ -1367,22 +1437,21 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			</bindings>
 		</keysequenceitem>
 		<validationitem
-		action="CompareImage"
+		action="ContainsImage"
 		codegenpropertyname="Pictures_Screenshot2"
 		duration="100ms"
 		enabled="True"
-		imageoptions="1;None;0,0,1256,936;True;10000000;0ms"
-		imagerect="0,0,1256,936"
-		optional="True"
-		screenshotguid="ffb8e0d2-11bf-4144-8d1a-f5b1c52847cc"
+		imagerect="146,61,944,823"
+		optional="False"
+		screenshotguid="f00973a6-966f-43ed-87ce-28508d2f8d41"
 		screenshotname="Screenshot2"
-		searchpropertyid="6bed3343-313a-463f-91a9-df6737e1d19a">
+		searchpropertyid="75c88e9c-85bc-4f20-9e6b-313e2aa626b3">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="6eb375ab-fee3-4ac5-bc46-a9c9a335c05f"
+			id="f5c4d0cb-7674-425b-a28f-22fa4f492232"
 			sourcename="ElementTree">
 				<element
 				capabilities="nativewindow"
@@ -1390,7 +1459,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				enabled="True"
 				flavor="win32"
 				hasfocus="False"
-				index="2"
+				index="0"
 				prefcap="text"
 				rect="10,118,1256,936"
 				role="text"
@@ -1409,7 +1478,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="selectionstart"
 					type="System.Int32">
-						14590508
+						258000034
 					</attribute>
 					<attribute
 					name="text"
@@ -1433,7 +1502,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						12453080
+						394776
 					</attribute>
 					<attribute
 					name="instance"
@@ -1443,7 +1512,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="processid"
 					type="System.Int32">
-						6728
+						6972
 					</attribute>
 					<attribute
 					name="processname"
@@ -1523,11 +1592,11 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='217744136']/text[@controlid='110']
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='233245920']/text[@controlid='110']
 				</path>
 			</info>
 			<helperscreenshot
-			guid="41940179-7ec1-4d73-bf3d-2b9d5a6e53b6">
+			guid="f73f17b2-d15f-421b-9e69-5ef392af329d">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
@@ -1603,135 +1672,213 @@ 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
-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
-iiigD//Z
+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
 			</helperscreenshot>
 			<matchname>
 			</matchname>
@@ -1743,6 +1890,7 @@ iiigD//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -1871,6 +2019,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Delete}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="39d14368-b0a4-48c1-9c39-f1944655ce2f">
@@ -1883,6 +2032,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="D:\Joro\GIT_Automations\VERSION 3\Images\3.bmp"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="6cddb088-a11b-4963-b994-2188688255d0">
@@ -1895,6 +2045,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Return}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="d77a7f56-6ec6-4c92-800a-d0b5041eaf54">
@@ -1904,22 +2055,21 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			</bindings>
 		</keysequenceitem>
 		<validationitem
-		action="CompareImage"
+		action="ContainsImage"
 		codegenpropertyname="Pictures_Screenshot3"
 		duration="100ms"
 		enabled="True"
-		imageoptions="1;None;0,0,1256,936;True;10000000;0ms"
-		imagerect="0,0,1256,936"
-		optional="True"
-		screenshotguid="93fc80c2-dab7-499d-aa12-1bad3200e36a"
+		imagerect="85,104,1019,742"
+		optional="False"
+		screenshotguid="5a0edaa1-2ac7-40aa-a1c6-a1abc60a4028"
 		screenshotname="Screenshot3"
-		searchpropertyid="225edcc7-a61a-434f-83c7-9c975c656c0e">
+		searchpropertyid="2caed066-5350-46e4-b54d-cfdb60545102">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="6eb375ab-fee3-4ac5-bc46-a9c9a335c05f"
+			id="f5c4d0cb-7674-425b-a28f-22fa4f492232"
 			sourcename="ElementTree">
 				<element
 				capabilities="nativewindow"
@@ -1927,7 +2077,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				enabled="True"
 				flavor="win32"
 				hasfocus="False"
-				index="2"
+				index="0"
 				prefcap="text"
 				rect="10,118,1256,936"
 				role="text"
@@ -1941,12 +2091,12 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="selectionlength"
 					type="System.Int32">
-						1598642
+						100
 					</attribute>
 					<attribute
 					name="selectionstart"
 					type="System.Int32">
-						0
+						24945196
 					</attribute>
 					<attribute
 					name="text"
@@ -1970,7 +2120,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						12453080
+						394776
 					</attribute>
 					<attribute
 					name="instance"
@@ -1980,7 +2130,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="processid"
 					type="System.Int32">
-						6728
+						6972
 					</attribute>
 					<attribute
 					name="processname"
@@ -2060,11 +2210,11 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='217744136']/text[@controlid='110']
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='233245920']/text[@controlid='110']
 				</path>
 			</info>
 			<helperscreenshot
-			guid="759211ee-e074-4df8-8013-b60fbcd36872">
+			guid="01521864-0ab8-4c59-b8db-a121a0e98380">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
@@ -2248,6 +2398,7 @@ BRRRTAO9BoooAWkoopAFFFFMAooopAFHeiigApH+6aKKaAx7r/WGq5NFFaIQZooooA//2Q==
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -2376,6 +2527,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Delete}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="39d14368-b0a4-48c1-9c39-f1944655ce2f">
@@ -2388,6 +2540,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="D:\Joro\GIT_Automations\VERSION 3\Images\4.bmp"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="6cddb088-a11b-4963-b994-2188688255d0">
@@ -2400,6 +2553,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Return}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="d77a7f56-6ec6-4c92-800a-d0b5041eaf54">
@@ -2409,22 +2563,21 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			</bindings>
 		</keysequenceitem>
 		<validationitem
-		action="CompareImage"
+		action="ContainsImage"
 		codegenpropertyname="Pictures_Screenshot4"
 		duration="100ms"
 		enabled="True"
-		imageoptions="1;None;0,0,1256,936;True;10000000;0ms"
-		imagerect="0,0,1256,936"
-		optional="True"
-		screenshotguid="85e7b6e2-28e2-48d1-b73b-1178d0d2e880"
+		imagerect="109,189,1004,676"
+		optional="False"
+		screenshotguid="7034b7a7-4116-47c5-b45e-bbee31b314cd"
 		screenshotname="Screenshot4"
-		searchpropertyid="c254a3cb-6df3-468d-b89a-67ce5aaf7a78">
+		searchpropertyid="270ca204-aecb-484b-9822-4497957e007e">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="6eb375ab-fee3-4ac5-bc46-a9c9a335c05f"
+			id="f5c4d0cb-7674-425b-a28f-22fa4f492232"
 			sourcename="ElementTree">
 				<element
 				capabilities="nativewindow"
@@ -2432,7 +2585,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				enabled="True"
 				flavor="win32"
 				hasfocus="False"
-				index="2"
+				index="0"
 				prefcap="text"
 				rect="10,118,1256,936"
 				role="text"
@@ -2446,7 +2599,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="selectionlength"
 					type="System.Int32">
-						1598642
+						100
 					</attribute>
 					<attribute
 					name="selectionstart"
@@ -2475,7 +2628,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						12453080
+						394776
 					</attribute>
 					<attribute
 					name="instance"
@@ -2485,7 +2638,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="processid"
 					type="System.Int32">
-						6728
+						6972
 					</attribute>
 					<attribute
 					name="processname"
@@ -2565,11 +2718,11 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='217744136']/text[@controlid='110']
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='233245920']/text[@controlid='110']
 				</path>
 			</info>
 			<helperscreenshot
-			guid="867b0e35-7dd2-4078-a516-75ce900abb3e">
+			guid="f6079e56-3040-44a3-b85a-00901e267be0">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
@@ -2782,6 +2935,7 @@ ALilUc0UUAOooooAKa1FFACZNLzjrRRQAAnNLmiigBCTilHK80UUALgelFFFAH//2Q==
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -2910,6 +3064,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Delete}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="39d14368-b0a4-48c1-9c39-f1944655ce2f">
@@ -2922,6 +3077,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="D:\Joro\GIT_Automations\VERSION 3\Images\5.bmp"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="6cddb088-a11b-4963-b994-2188688255d0">
@@ -2934,6 +3090,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Return}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="d77a7f56-6ec6-4c92-800a-d0b5041eaf54">
@@ -2943,22 +3100,21 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			</bindings>
 		</keysequenceitem>
 		<validationitem
-		action="CompareImage"
+		action="ContainsImage"
 		codegenpropertyname="Pictures_Screenshot5"
 		duration="100ms"
 		enabled="True"
-		imageoptions="1;None;0,0,1256,936;True;10000000;0ms"
-		imagerect="0,0,1256,936"
-		optional="True"
-		screenshotguid="bbbae4cd-ce51-46f5-8f99-341e4b44405a"
+		imagerect="199,217,862,600"
+		optional="False"
+		screenshotguid="e50ee231-8646-4b8f-8d46-43108f13dd74"
 		screenshotname="Screenshot5"
-		searchpropertyid="15656a85-b67b-425a-9cf4-8ad48e4ff0f8">
+		searchpropertyid="a6ec7c54-6360-4fe9-aa09-e1f34b6e74b3">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="6eb375ab-fee3-4ac5-bc46-a9c9a335c05f"
+			id="f5c4d0cb-7674-425b-a28f-22fa4f492232"
 			sourcename="ElementTree">
 				<element
 				capabilities="nativewindow"
@@ -2966,7 +3122,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				enabled="True"
 				flavor="win32"
 				hasfocus="False"
-				index="2"
+				index="0"
 				prefcap="text"
 				rect="10,118,1256,936"
 				role="text"
@@ -2980,7 +3136,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="selectionlength"
 					type="System.Int32">
-						100
+						1598642
 					</attribute>
 					<attribute
 					name="selectionstart"
@@ -3009,7 +3165,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						12453080
+						394776
 					</attribute>
 					<attribute
 					name="instance"
@@ -3019,7 +3175,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="processid"
 					type="System.Int32">
-						6728
+						6972
 					</attribute>
 					<attribute
 					name="processname"
@@ -3099,11 +3255,11 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='217744136']/text[@controlid='110']
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='233245920']/text[@controlid='110']
 				</path>
 			</info>
 			<helperscreenshot
-			guid="c7e9409f-250a-4e9e-a853-2be6258e9b4a">
+			guid="9abf883a-d594-487a-926e-abd2f8228fe8">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
@@ -3232,6 +3388,7 @@ ooAbSr1oooAdmjOaKKAG4owKKKAHdFpR0oooAD0oHrRRQAmAT0paKKYBSYHpRRSAXA9KKKKAP//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -3360,6 +3517,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Delete}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="39d14368-b0a4-48c1-9c39-f1944655ce2f">
@@ -3372,6 +3530,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="D:\Joro\GIT_Automations\VERSION 3\Images\6.bmp"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="6cddb088-a11b-4963-b994-2188688255d0">
@@ -3384,6 +3543,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Return}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="d77a7f56-6ec6-4c92-800a-d0b5041eaf54">
@@ -3393,22 +3553,21 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			</bindings>
 		</keysequenceitem>
 		<validationitem
-		action="CompareImage"
+		action="ContainsImage"
 		codegenpropertyname="Pictures_Screenshot6"
 		duration="100ms"
 		enabled="True"
-		imageoptions="1;None;0,0,1256,936;True;10000000;0ms"
-		imagerect="0,0,1256,936"
-		optional="True"
-		screenshotguid="140049e7-2a24-4c93-abcf-60d36a585c26"
+		imagerect="142,141,900,653"
+		optional="False"
+		screenshotguid="eb79be23-9623-4c08-86b4-c2cfd5fbf8b8"
 		screenshotname="Screenshot6"
-		searchpropertyid="2d28f2f7-606d-4587-afe5-798fed40ed90">
+		searchpropertyid="04c2110f-924f-4d04-ae06-69fe257653a7">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="6eb375ab-fee3-4ac5-bc46-a9c9a335c05f"
+			id="f5c4d0cb-7674-425b-a28f-22fa4f492232"
 			sourcename="ElementTree">
 				<element
 				capabilities="nativewindow"
@@ -3416,7 +3575,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				enabled="True"
 				flavor="win32"
 				hasfocus="False"
-				index="2"
+				index="0"
 				prefcap="text"
 				rect="10,118,1256,936"
 				role="text"
@@ -3430,12 +3589,12 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="selectionlength"
 					type="System.Int32">
-						1598642
+						100
 					</attribute>
 					<attribute
 					name="selectionstart"
 					type="System.Int32">
-						0
+						24945196
 					</attribute>
 					<attribute
 					name="text"
@@ -3459,7 +3618,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						12453080
+						394776
 					</attribute>
 					<attribute
 					name="instance"
@@ -3469,7 +3628,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="processid"
 					type="System.Int32">
-						6728
+						6972
 					</attribute>
 					<attribute
 					name="processname"
@@ -3549,11 +3708,11 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='217744136']/text[@controlid='110']
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='233245920']/text[@controlid='110']
 				</path>
 			</info>
 			<helperscreenshot
-			guid="b246f62d-345d-47e8-8d5c-c58ad9e33407">
+			guid="00ca65f1-5cd9-47f3-8d6d-ab8be76fc986">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
@@ -3713,6 +3872,7 @@ UUAFFFFABRRRTAKKKKQBRRRTAKKKKQBRRRQAUUUUwCiiikAUUUUAFFFFABRRRQAUUUUAf//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -3841,6 +4001,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Delete}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="39d14368-b0a4-48c1-9c39-f1944655ce2f">
@@ -3853,6 +4014,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="D:\Joro\GIT_Automations\VERSION 3\Images\7.bmp"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="6cddb088-a11b-4963-b994-2188688255d0">
@@ -3865,6 +4027,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		KeySequence="{Return}"
 		duration="100ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		optional="False"
 		presstime="100ms"
 		searchpropertyid="d77a7f56-6ec6-4c92-800a-d0b5041eaf54">
@@ -3874,22 +4037,21 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			</bindings>
 		</keysequenceitem>
 		<validationitem
-		action="CompareImage"
+		action="ContainsImage"
 		codegenpropertyname="Pictures_Screenshot7"
 		duration="100ms"
 		enabled="True"
-		imageoptions="1;None;0,0,1256,936;True;10000000;0ms"
-		imagerect="0,0,1256,936"
-		optional="True"
-		screenshotguid="e6b9ed05-87be-4821-bc68-91d69d38f465"
+		imagerect="127,137,939,756"
+		optional="False"
+		screenshotguid="f7cf26d0-f616-4a2e-afc3-17f189cc8c09"
 		screenshotname="Screenshot7"
-		searchpropertyid="3f4db6c7-b405-4a4d-adc7-31d37fa6d727">
+		searchpropertyid="54e28828-32ed-4162-b297-ec46a1e2ad6c">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="6eb375ab-fee3-4ac5-bc46-a9c9a335c05f"
+			id="f5c4d0cb-7674-425b-a28f-22fa4f492232"
 			sourcename="ElementTree">
 				<element
 				capabilities="nativewindow"
@@ -3897,7 +4059,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				enabled="True"
 				flavor="win32"
 				hasfocus="False"
-				index="2"
+				index="0"
 				prefcap="text"
 				rect="10,118,1256,936"
 				role="text"
@@ -3916,7 +4078,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="selectionstart"
 					type="System.Int32">
-						255706274
+						0
 					</attribute>
 					<attribute
 					name="text"
@@ -3940,7 +4102,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="handle"
 					type="System.IntPtr">
-						12453080
+						394776
 					</attribute>
 					<attribute
 					name="instance"
@@ -3950,7 +4112,7 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					<attribute
 					name="processid"
 					type="System.Int32">
-						6728
+						6972
 					</attribute>
 					<attribute
 					name="processname"
@@ -4030,11 +4192,11 @@ KKRAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='217744136']/text[@controlid='110']
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='233245920']/text[@controlid='110']
 				</path>
 			</info>
 			<helperscreenshot
-			guid="90feb162-741b-4686-b175-ae59200ff512">
+			guid="9b40901d-cac3-4a8a-9a06-17395db257ba">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
@@ -4268,6 +4430,7 @@ FFFFFABRRRQB/9k=
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -4292,6 +4455,7 @@ FFFFFABRRRQB/9k=
 		button="Right"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="33;190"
 		movetime="300ms"
 		optional="False"
@@ -4700,6 +4864,7 @@ z/wKiigA82P/AJ+br/P/AAKjzY/+fm6/z/wKiigA82P/AJ+br/P/AAKl82P/AJ+br/P/AAKiigA8
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="81;10"
 		movetime="300ms"
 		optional="False"
@@ -5084,6 +5249,7 @@ bb/vwP8A4miwXOm82P8Avr+dHmx/31/OuY8mD/nrbf8Afgf/ABNHkwf89bb/AL8D/wCJosFzp/Nj
 		button="Left"
 		duration="500ms"
 		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
 		loc="72;162"
 		movetime="300ms"
 		optional="False"

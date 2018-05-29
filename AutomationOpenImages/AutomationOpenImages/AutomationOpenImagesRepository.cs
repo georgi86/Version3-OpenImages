@@ -30,7 +30,6 @@ namespace AutomationOpenImages
         AutomationOpenImagesRepositoryFolders.SnapXUntitledAppFolder _snapxuntitled;
         AutomationOpenImagesRepositoryFolders.SNAPXAppFolder _snapx;
         RepoItemInfo _modeselectorburttonInfo;
-        RepoItemInfo _printInfo;
 
         /// <summary>
         /// Gets the singleton class instance representing the AutomationOpenImagesRepository element repository.
@@ -50,7 +49,6 @@ namespace AutomationOpenImages
             _snapxuntitled = new AutomationOpenImagesRepositoryFolders.SnapXUntitledAppFolder(this);
             _snapx = new AutomationOpenImagesRepositoryFolders.SNAPXAppFolder(this);
             _modeselectorburttonInfo = new RepoItemInfo(this, "ModeSelectorBurtton", "/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/button[@text='Go']", 30000, null, "11f2337e-ac58-4f4e-9c35-55047285c28a");
-            _printInfo = new RepoItemInfo(this, "Print", "/form[@title='Snap-X - [Untitled]']/?/?/form[@title='Untitled']/?/?/tabpage[@title='Print']", 30000, null, "f428d2c0-104a-4789-bdbe-40f54a802f8b");
         }
 
 #region Variables
@@ -94,30 +92,6 @@ namespace AutomationOpenImages
         }
 
         /// <summary>
-        /// The Print item.
-        /// </summary>
-        [RepositoryItem("f428d2c0-104a-4789-bdbe-40f54a802f8b")]
-        public virtual Ranorex.TabPage Print
-        {
-            get
-            {
-                 return _printInfo.CreateAdapter<Ranorex.TabPage>(true);
-            }
-        }
-
-        /// <summary>
-        /// The Print item info.
-        /// </summary>
-        [RepositoryItemInfo("f428d2c0-104a-4789-bdbe-40f54a802f8b")]
-        public virtual RepoItemInfo PrintInfo
-        {
-            get
-            {
-                return _printInfo;
-            }
-        }
-
-        /// <summary>
         /// The SnapXUntitled folder.
         /// </summary>
         [RepositoryFolder("e3dfd10c-a895-4621-92a1-f5ebfd2043f6")]
@@ -152,9 +126,11 @@ namespace AutomationOpenImages
             RepoItemInfo _textmeasureInfo;
             RepoItemInfo _openimagebuttonInfo;
             RepoItemInfo _featurefinderInfo;
-            PicturesInfoClass _picturesInfo;
             RepoItemInfo _crosshairbuttonInfo;
             RepoItemInfo _rightclicktoreachthegobuttonInfo;
+            RepoItemInfo _switchtosensorInfo;
+            RepoItemInfo _toolboxInfo;
+            PicturesInfoClass _picturesInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -166,32 +142,34 @@ namespace AutomationOpenImages
                 _textmeasureInfo = new RepoItemInfo(this, "TextMeasure", "container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']", 30000, null, "a13ef2c4-6a00-4e6d-8581-81963f233d71");
                 _openimagebuttonInfo = new RepoItemInfo(this, "OpenImageButton", "?/?/form[@title='Untitled']//toolbar[@controlid='59392']/button[@text='Open Image']", 30000, null, "95015fa7-8b5e-457e-b717-307eb061506c");
                 _featurefinderInfo = new RepoItemInfo(this, "FeatureFinder", "container[@controlid='59648']/form[@title='Untitled']//toolbar[@class='ToolbarWindow32' and @instance='2']/button[@commandid='5064' and @checked='false']", 30000, null, "f18ab8eb-0cd7-4d29-92dd-d012ee0f9d6b");
-                _picturesInfo = new PicturesInfoClass(this);
                 _crosshairbuttonInfo = new RepoItemInfo(this, "CrossHairButton", "container[@controlid='59648']/form[@title='Untitled']//toolbar[@class='ToolbarWindow32' and @instance='1']/button[@commandid='5009']", 30000, null, "1e26cba9-c6e1-4a6d-b493-621309387c68");
                 _rightclicktoreachthegobuttonInfo = new RepoItemInfo(this, "RightClickToReachTheGoButton", "container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']", 30000, null, "5de3b19f-84d2-454c-9ac2-f3a8871bc86d");
+                _switchtosensorInfo = new RepoItemInfo(this, "SwitchToSensor", "container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']", 30000, null, "d5923ba4-1c19-4432-8468-cddd7894ff41");
+                _toolboxInfo = new RepoItemInfo(this, "Toolbox", "?/?/form[@title='Untitled' and @enabled='True']/?/?/tabpage[@title='Toolbox']", 30000, null, "8867a432-6080-4627-a766-cecd00c357fa");
+                _picturesInfo = new PicturesInfoClass(this);
             }
 
             /// <summary>
             /// The PicturesInfoClass folder.
             /// </summary>
-            [RepositoryItemInfo("6eb375ab-fee3-4ac5-bc46-a9c9a335c05f")]
+            [RepositoryItemInfo("f5c4d0cb-7674-425b-a28f-22fa4f492232")]
             public class PicturesInfoClass : RepoItemInfo
             {
                 /// <summary>
                 /// PicturesInfoClass class constructor.
                 /// </summary>
                 public PicturesInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "Pictures", "container[@controlid='59648']/form[@title='Untitled']//element[@controlid='217744136']/text[@controlid='110']", 30000, null, "6eb375ab-fee3-4ac5-bc46-a9c9a335c05f")
+                    : base(parentFolder, "Pictures", "container[@controlid='59648']/form[@title='Untitled']//element[@controlid='233245920']/text[@controlid='110']", 30000, null, "f5c4d0cb-7674-425b-a28f-22fa4f492232")
                 { }
 
                 /// <summary>
                 /// Gets the Screenshot1 item image.
                 /// </summary>
                 /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("201784b1-1614-4261-b9a6-d7546a8efc33")]
+                [RepositoryImage("bfd88a1e-8471-4a5c-8118-9957174fcd78")]
                 public CompressedImage GetScreenshot1()
                 {
-                    return GetImage("201784b1-1614-4261-b9a6-d7546a8efc33");
+                    return GetImage("bfd88a1e-8471-4a5c-8118-9957174fcd78");
                 }
 
                 /// <summary>
@@ -199,20 +177,20 @@ namespace AutomationOpenImages
                 /// </summary>
                 /// <param name="cropRect">The bounds of the sub-image to return.</param>
                 /// <returns>The cropped image.</returns>
-                [RepositoryImage("201784b1-1614-4261-b9a6-d7546a8efc33")]
+                [RepositoryImage("bfd88a1e-8471-4a5c-8118-9957174fcd78")]
                 public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
                 {
-                    return GetImage("201784b1-1614-4261-b9a6-d7546a8efc33", cropRect);
+                    return GetImage("bfd88a1e-8471-4a5c-8118-9957174fcd78", cropRect);
                 }
 
                 /// <summary>
                 /// Gets the Screenshot2 item image.
                 /// </summary>
                 /// <returns>The Screenshot2 image.</returns>
-                [RepositoryImage("ffb8e0d2-11bf-4144-8d1a-f5b1c52847cc")]
+                [RepositoryImage("f00973a6-966f-43ed-87ce-28508d2f8d41")]
                 public CompressedImage GetScreenshot2()
                 {
-                    return GetImage("ffb8e0d2-11bf-4144-8d1a-f5b1c52847cc");
+                    return GetImage("f00973a6-966f-43ed-87ce-28508d2f8d41");
                 }
 
                 /// <summary>
@@ -220,20 +198,20 @@ namespace AutomationOpenImages
                 /// </summary>
                 /// <param name="cropRect">The bounds of the sub-image to return.</param>
                 /// <returns>The cropped image.</returns>
-                [RepositoryImage("ffb8e0d2-11bf-4144-8d1a-f5b1c52847cc")]
+                [RepositoryImage("f00973a6-966f-43ed-87ce-28508d2f8d41")]
                 public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
                 {
-                    return GetImage("ffb8e0d2-11bf-4144-8d1a-f5b1c52847cc", cropRect);
+                    return GetImage("f00973a6-966f-43ed-87ce-28508d2f8d41", cropRect);
                 }
 
                 /// <summary>
                 /// Gets the Screenshot3 item image.
                 /// </summary>
                 /// <returns>The Screenshot3 image.</returns>
-                [RepositoryImage("93fc80c2-dab7-499d-aa12-1bad3200e36a")]
+                [RepositoryImage("5a0edaa1-2ac7-40aa-a1c6-a1abc60a4028")]
                 public CompressedImage GetScreenshot3()
                 {
-                    return GetImage("93fc80c2-dab7-499d-aa12-1bad3200e36a");
+                    return GetImage("5a0edaa1-2ac7-40aa-a1c6-a1abc60a4028");
                 }
 
                 /// <summary>
@@ -241,20 +219,20 @@ namespace AutomationOpenImages
                 /// </summary>
                 /// <param name="cropRect">The bounds of the sub-image to return.</param>
                 /// <returns>The cropped image.</returns>
-                [RepositoryImage("93fc80c2-dab7-499d-aa12-1bad3200e36a")]
+                [RepositoryImage("5a0edaa1-2ac7-40aa-a1c6-a1abc60a4028")]
                 public CompressedImage GetScreenshot3(System.Drawing.Rectangle cropRect)
                 {
-                    return GetImage("93fc80c2-dab7-499d-aa12-1bad3200e36a", cropRect);
+                    return GetImage("5a0edaa1-2ac7-40aa-a1c6-a1abc60a4028", cropRect);
                 }
 
                 /// <summary>
                 /// Gets the Screenshot4 item image.
                 /// </summary>
                 /// <returns>The Screenshot4 image.</returns>
-                [RepositoryImage("85e7b6e2-28e2-48d1-b73b-1178d0d2e880")]
+                [RepositoryImage("7034b7a7-4116-47c5-b45e-bbee31b314cd")]
                 public CompressedImage GetScreenshot4()
                 {
-                    return GetImage("85e7b6e2-28e2-48d1-b73b-1178d0d2e880");
+                    return GetImage("7034b7a7-4116-47c5-b45e-bbee31b314cd");
                 }
 
                 /// <summary>
@@ -262,20 +240,20 @@ namespace AutomationOpenImages
                 /// </summary>
                 /// <param name="cropRect">The bounds of the sub-image to return.</param>
                 /// <returns>The cropped image.</returns>
-                [RepositoryImage("85e7b6e2-28e2-48d1-b73b-1178d0d2e880")]
+                [RepositoryImage("7034b7a7-4116-47c5-b45e-bbee31b314cd")]
                 public CompressedImage GetScreenshot4(System.Drawing.Rectangle cropRect)
                 {
-                    return GetImage("85e7b6e2-28e2-48d1-b73b-1178d0d2e880", cropRect);
+                    return GetImage("7034b7a7-4116-47c5-b45e-bbee31b314cd", cropRect);
                 }
 
                 /// <summary>
                 /// Gets the Screenshot5 item image.
                 /// </summary>
                 /// <returns>The Screenshot5 image.</returns>
-                [RepositoryImage("bbbae4cd-ce51-46f5-8f99-341e4b44405a")]
+                [RepositoryImage("e50ee231-8646-4b8f-8d46-43108f13dd74")]
                 public CompressedImage GetScreenshot5()
                 {
-                    return GetImage("bbbae4cd-ce51-46f5-8f99-341e4b44405a");
+                    return GetImage("e50ee231-8646-4b8f-8d46-43108f13dd74");
                 }
 
                 /// <summary>
@@ -283,20 +261,20 @@ namespace AutomationOpenImages
                 /// </summary>
                 /// <param name="cropRect">The bounds of the sub-image to return.</param>
                 /// <returns>The cropped image.</returns>
-                [RepositoryImage("bbbae4cd-ce51-46f5-8f99-341e4b44405a")]
+                [RepositoryImage("e50ee231-8646-4b8f-8d46-43108f13dd74")]
                 public CompressedImage GetScreenshot5(System.Drawing.Rectangle cropRect)
                 {
-                    return GetImage("bbbae4cd-ce51-46f5-8f99-341e4b44405a", cropRect);
+                    return GetImage("e50ee231-8646-4b8f-8d46-43108f13dd74", cropRect);
                 }
 
                 /// <summary>
                 /// Gets the Screenshot6 item image.
                 /// </summary>
                 /// <returns>The Screenshot6 image.</returns>
-                [RepositoryImage("140049e7-2a24-4c93-abcf-60d36a585c26")]
+                [RepositoryImage("eb79be23-9623-4c08-86b4-c2cfd5fbf8b8")]
                 public CompressedImage GetScreenshot6()
                 {
-                    return GetImage("140049e7-2a24-4c93-abcf-60d36a585c26");
+                    return GetImage("eb79be23-9623-4c08-86b4-c2cfd5fbf8b8");
                 }
 
                 /// <summary>
@@ -304,20 +282,20 @@ namespace AutomationOpenImages
                 /// </summary>
                 /// <param name="cropRect">The bounds of the sub-image to return.</param>
                 /// <returns>The cropped image.</returns>
-                [RepositoryImage("140049e7-2a24-4c93-abcf-60d36a585c26")]
+                [RepositoryImage("eb79be23-9623-4c08-86b4-c2cfd5fbf8b8")]
                 public CompressedImage GetScreenshot6(System.Drawing.Rectangle cropRect)
                 {
-                    return GetImage("140049e7-2a24-4c93-abcf-60d36a585c26", cropRect);
+                    return GetImage("eb79be23-9623-4c08-86b4-c2cfd5fbf8b8", cropRect);
                 }
 
                 /// <summary>
                 /// Gets the Screenshot7 item image.
                 /// </summary>
                 /// <returns>The Screenshot7 image.</returns>
-                [RepositoryImage("e6b9ed05-87be-4821-bc68-91d69d38f465")]
+                [RepositoryImage("f7cf26d0-f616-4a2e-afc3-17f189cc8c09")]
                 public CompressedImage GetScreenshot7()
                 {
-                    return GetImage("e6b9ed05-87be-4821-bc68-91d69d38f465");
+                    return GetImage("f7cf26d0-f616-4a2e-afc3-17f189cc8c09");
                 }
 
                 /// <summary>
@@ -325,10 +303,10 @@ namespace AutomationOpenImages
                 /// </summary>
                 /// <param name="cropRect">The bounds of the sub-image to return.</param>
                 /// <returns>The cropped image.</returns>
-                [RepositoryImage("e6b9ed05-87be-4821-bc68-91d69d38f465")]
+                [RepositoryImage("f7cf26d0-f616-4a2e-afc3-17f189cc8c09")]
                 public CompressedImage GetScreenshot7(System.Drawing.Rectangle cropRect)
                 {
-                    return GetImage("e6b9ed05-87be-4821-bc68-91d69d38f465", cropRect);
+                    return GetImage("f7cf26d0-f616-4a2e-afc3-17f189cc8c09", cropRect);
                 }
             }
 
@@ -453,30 +431,6 @@ namespace AutomationOpenImages
             }
 
             /// <summary>
-            /// The Pictures item.
-            /// </summary>
-            [RepositoryItem("6eb375ab-fee3-4ac5-bc46-a9c9a335c05f")]
-            public virtual Ranorex.Text Pictures
-            {
-                get
-                {
-                    return _picturesInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Pictures item info.
-            /// </summary>
-            [RepositoryItemInfo("6eb375ab-fee3-4ac5-bc46-a9c9a335c05f")]
-            public virtual PicturesInfoClass PicturesInfo
-            {
-                get
-                {
-                    return _picturesInfo;
-                }
-            }
-
-            /// <summary>
             /// The CrossHairButton item.
             /// </summary>
             [RepositoryItem("1e26cba9-c6e1-4a6d-b493-621309387c68")]
@@ -521,6 +475,78 @@ namespace AutomationOpenImages
                 get
                 {
                     return _rightclicktoreachthegobuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SwitchToSensor item.
+            /// </summary>
+            [RepositoryItem("d5923ba4-1c19-4432-8468-cddd7894ff41")]
+            public virtual Ranorex.Button SwitchToSensor
+            {
+                get
+                {
+                    return _switchtosensorInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SwitchToSensor item info.
+            /// </summary>
+            [RepositoryItemInfo("d5923ba4-1c19-4432-8468-cddd7894ff41")]
+            public virtual RepoItemInfo SwitchToSensorInfo
+            {
+                get
+                {
+                    return _switchtosensorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Toolbox item.
+            /// </summary>
+            [RepositoryItem("8867a432-6080-4627-a766-cecd00c357fa")]
+            public virtual Ranorex.TabPage Toolbox
+            {
+                get
+                {
+                    return _toolboxInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Toolbox item info.
+            /// </summary>
+            [RepositoryItemInfo("8867a432-6080-4627-a766-cecd00c357fa")]
+            public virtual RepoItemInfo ToolboxInfo
+            {
+                get
+                {
+                    return _toolboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Pictures item.
+            /// </summary>
+            [RepositoryItem("f5c4d0cb-7674-425b-a28f-22fa4f492232")]
+            public virtual Ranorex.Text Pictures
+            {
+                get
+                {
+                    return _picturesInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pictures item info.
+            /// </summary>
+            [RepositoryItemInfo("f5c4d0cb-7674-425b-a28f-22fa4f492232")]
+            public virtual PicturesInfoClass PicturesInfo
+            {
+                get
+                {
+                    return _picturesInfo;
                 }
             }
         }

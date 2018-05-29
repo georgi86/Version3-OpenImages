@@ -7,7 +7,7 @@ rxversion="7.0">
 		True
 	</adapter.defaultuseensurevisible>
 	<imaging.defaultfindoptions>
-		1;None;0,0,0,0;True;10000000;0ms
+		1;EdgesSobel;0,0,0,0;True;10000000;0ms
 	</imaging.defaultfindoptions>
 	<imaging.usehiddenimagecapture>
 		True

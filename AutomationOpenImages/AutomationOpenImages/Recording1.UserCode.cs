@@ -30,7 +30,7 @@ namespace AutomationOpenImages
         /// </summary>
         private void Init()
         {
-            // Your recording specific initialization code goes here.
+                       
         }
 
     }
