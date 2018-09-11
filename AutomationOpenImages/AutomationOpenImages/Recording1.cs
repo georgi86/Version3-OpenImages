@@ -76,13 +76,7 @@ namespace AutomationOpenImages
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.00;
-
-            Init();
-
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.00;
-
+            
             Init();
 
             string strBigModeCaptionText = "Measure";
@@ -99,7 +93,7 @@ namespace AutomationOpenImages
             }
             catch (Exception ex)
             {
-
+              
             }
 
             if (!bBigMode)
@@ -123,14 +117,15 @@ namespace AutomationOpenImages
             Keyboard.Press("{Delete}");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\1.bmp'.", new RecordItemIndex(8));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\1.bmp");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\1.bmp'.", new RecordItemIndex(8));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\1.bmp");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(9));
             Keyboard.Press("{Return}");
             Delay.Milliseconds(100);
 
+            
             try
             {
                 Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=118,Y=70,Width=981,Height=837}) on item 'SnapXUntitled.Pictures'.", repo.SnapXUntitled.PicturesInfo, new RecordItemIndex(11));
@@ -139,7 +134,7 @@ namespace AutomationOpenImages
             }
             catch (Exception ex)
             {
-
+                
             }                  
                                     
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.OpenImageButton' at Center.", repo.SnapXUntitled.OpenImageButtonInfo, new RecordItemIndex(12));
@@ -150,8 +145,8 @@ namespace AutomationOpenImages
             Keyboard.Press("{Delete}");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\2.bmp'.", new RecordItemIndex(14));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\2.bmp");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\2.bmp'.", new RecordItemIndex(14));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\2.bmp");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(15));
@@ -177,8 +172,8 @@ namespace AutomationOpenImages
             Keyboard.Press("{Delete}");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\3.bmp'.", new RecordItemIndex(19));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\3.bmp");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\3.bmp'.", new RecordItemIndex(19));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\3.bmp");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(20));
@@ -204,8 +199,8 @@ namespace AutomationOpenImages
             Keyboard.Press("{Delete}");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\4.bmp'.", new RecordItemIndex(24));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\4.bmp");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\4.bmp'.", new RecordItemIndex(24));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\4.bmp");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(25));
@@ -231,8 +226,8 @@ namespace AutomationOpenImages
             Keyboard.Press("{Delete}");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\5.bmp'.", new RecordItemIndex(29));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\5.bmp");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\5.bmp'.", new RecordItemIndex(29));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\5.bmp");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(30));
@@ -258,8 +253,8 @@ namespace AutomationOpenImages
             Keyboard.Press("{Delete}");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\6.bmp'.", new RecordItemIndex(34));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\6.bmp");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\6.bmp'.", new RecordItemIndex(34));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\6.bmp");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(35));
@@ -285,8 +280,8 @@ namespace AutomationOpenImages
             Keyboard.Press("{Delete}");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\7.bmp'.", new RecordItemIndex(39));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\Images\\7.bmp");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\7.bmp'.", new RecordItemIndex(39));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\Images\\7.bmp");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(40));
